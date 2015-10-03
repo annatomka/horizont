@@ -1,0 +1,27 @@
+<section>
+	<!-- 	<div> -->
+	<!-- 		<img class="splash-img" src="images/test02.jpg" /> -->
+	<!-- 	</div> -->
+	<div class="overflow container-fluid" data-bind="foreach: ads">
+		<div class="item row-fluid">
+			<div class=" col-md-8">
+				<h3 data-bind="html: $data.name"></h3>
+			</div>
+			<div class="col-md-2 text-center">
+				<h2>
+					<a data-bind="tooltip: {title: 'Hirdetés megtekintése', placement: 'bottom'},click: $parent.editAd.bind($parent,$data)"
+						class="fa fa-eye"
+						style="cursor: pointer; text-decoration: none !important;"></a>
+				</h2>
+			</div>
+			<div class="col-md-2 text-center">
+				<h2>
+					<a data-bind="tooltip: {title: 'Hirdetés törlése', placement: 'bottom'},click: $parent.deleteAd.bind($parent,$data)"
+						class="fa fa-trash-o"
+						style="cursor: pointer; text-decoration: none !important;"></a>
+				</h2>
+			</div>
+
+		</div>
+	</div>
+</section>

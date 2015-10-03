@@ -1,0 +1,49 @@
+<div id="editAd" class="modal fade" id="myModal" tabindex="-1"
+	role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal"
+					aria-hidden="true">&times;</button>
+				<h4 class="modal-title" id="myModalLabel">Hirdetés szerkesztése</h4>
+			</div>
+			<div class="modal-body">
+				<div class="row-fluid">
+					<p>
+						<label>Cím</label> <input class=" width-98-p" type="text"
+							data-bind="value: model.name" />
+					</p>
+				</div>
+				<div class="row-fluid">
+					<p>
+						<label>Leírás</label>
+						<textarea class=" width-98-p min-height-100"
+							data-bind="value: model.description"></textarea>
+					</p>
+				</div>
+				<div class="row-fluid">
+					<p>
+						<label>Kínál</label> <input type="checkbox"
+							data-bind="checked: model.offer" />
+					</p>
+				</div>
+				<div class="row-fluid">
+					<p>
+						<label>Ár</label> <input type="number"
+							data-bind="value: model.price" />
+					</p>
+				</div>
+				<div class="row-fluid">
+					<p>
+						<label>Irányár-e</label> <input type="checkbox"
+							data-bind="checked: model.targetPrice" />
+					</p>
+				</div>
+			</div>
+			<div class="modal-footer">
+				<button class="btn btn-default" data-dismiss="modal">Bezárás</button>
+				<button class="btn btn-primary" data-bind="click: save">Mentés</button>
+			</div>
+		</div>
+	</div>
+</div>

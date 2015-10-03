@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="hu.co.horizont.mapper.CategoryMapper">
+	<select id="getCategories" resultType="hu.co.horizont.domain.Category" >
+		SELECT *	
+		FROM ad_category
+	</select>
+	<select id="getCategory" parameterType="String" resultType="hu.co.horizont.domain.Category">
+		select *
+		from ad_category
+		where id = #{id}
+	</select>
+	<insert id="insert" parameterType="hu.co.horizont.domain.Category">
+		insert into ad_category(
+			id,
+			name,
+			rev) 
+		values (
+			#{id},
+			#{name},
+			#{rev})
+	</insert>
+	<update id="update" parameterType="hu.co.horizont.domain.Category">
+		update ad_category set
+			id = #{id},
+			name = #{name},
+			rev = rev + 1
+		where id = #{id} and rev = #{rev}
+	</update>
+	<delete id="delete" parameterType="String">
+		delete from ad_category where id = #{id}
+	</delete>
+</mapper>

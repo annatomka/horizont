@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="hu.co.horizont.mapper.LocationMapper">
+	<select id="getAds" resultType="hu.co.horizont.domain.Location" >
+		SELECT *	
+		FROM ma_location
+	</select>
+	<select id="getAd" parameterType="String" resultType="hu.co.horizont.domain.Location">
+		select *
+		from ma_location
+		where id = #{id}
+	</select>
+	<insert id="insert" parameterType="hu.co.horizont.domain.Location">
+		insert into ma_location(
+			id,
+			name,
+			radius,
+			lat,
+			lng,
+			rev) 
+		values (
+			#{id},
+			#{name},
+			#{radius,jdbcType=NUMERIC},
+			#{lat},
+			#{lng},
+			#{rev})
+	</insert>
+	<update id="update" parameterType="hu.co.horizont.domain.Location">
+		update ma_location set
+			id = #{id},
+			name = #{name},
+			radius = #{radius,jdbcType=NUMERIC},
+			lat = #{lat},
+			lng = #{lng},
+			rev = rev + 1
+		where id = #{id} and rev = #{rev}
+	</update>
+	<delete id="delete" parameterType="String">
+		delete from ma_location where id = #{id}
+	</delete>
+</mapper>

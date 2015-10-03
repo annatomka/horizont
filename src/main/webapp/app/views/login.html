@@ -1,0 +1,35 @@
+<div class="col-md-6 messageBox autoclose">
+<div class="modal-draggable">
+	<div class="modal-header">
+		<button type="button" class="close" data-bind="click: cancel"
+			aria-hidden="true">&times;</button>
+		<h4 class="modal-title" id="myModalLabel">Bejelentkezés</h4>
+	</div>
+		<div id="errors-container"></div>
+	 <form id="form" action='j_spring_security_check' method='POST' autocomplete="on" style="margin: 10px 0 0px; text-align: center;">
+	<div class="modal-body">
+		<div class="container-fluid">
+		
+			<div class="row-fluid">
+				<div class="col-md-12">
+				<div class="input-group margin-bottom-sm">
+					<span class="input-group-addon"><i
+						class="fa fa-envelope-o fa-fw"></i></span> 
+						<input class="form-control" data-bind="value: username"
+						type="text" placeholder="Email address" name='j_username'>
+				</div>
+				<div class="input-group">
+					<span class="input-group-addon"><i class="fa fa-key fa-fw"></i></span>
+					<input class="form-control" type="password" name='j_password' placeholder="Password"  data-bind="value: password">
+				</div>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	<div class="modal-footer">
+		<button type="button" class="btn btn-default"
+			data-bind="click: register">Regisztráció</button>
+		<button class="btn btn-primary" type="submit">Bejelentkezés</button>
+	</div></form></div>
+</div>

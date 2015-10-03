@@ -1,0 +1,68 @@
+<div class="messageBox autoclose" style="min-width: 50vw;max-width: 100vw">
+	<div class="modal-draggable"><form action="" method="post" id="reg-form"
+		novalidate="novalidate">
+	<div class="modal-header">
+		<button type="button" class="close" data-bind="click: cancel"
+			aria-hidden="true">&times;</button>
+		<h4 class="modal-title" id="myModalLabel">Regisztráció</h4>
+	</div>
+	<div id="errors-container"></div>
+	<div class="modal-body" data-bind="with: user">
+		<div class="container-fluid">
+			<div class="row margin-bottom-sm">
+				<div class="col-md-6 ">
+					<label>Vezetéknév: </label>
+				</div>
+				<div class="col-md-6">
+						<input id="lastname" name="lastname" class="form-control" data-bind="value: lastname" type="text">
+				</div>
+			</div>
+			<div class="row  margin-bottom-sm">
+				<div class="col-md-6">
+					<label>Keresztnév: </label>
+				</div>
+				<div class="col-md-6">
+						<input id="firstname" name="firstname"   class="form-control" data-bind="value: firstname" type="text">
+				</div>
+			</div>
+			<div class="row  margin-bottom-sm">
+				<div class="col-md-6">
+					<label>Email-cím: </label>
+				</div>
+				<div class="col-md-6">
+						<input  id="email" name="email"  class="form-control" data-bind="value: email" type="text" placeholder="Pl.: anonim@gmail.com">
+				</div>
+			</div>
+			<div class="row margin-bottom-sm">
+				<div class="col-md-6">
+					<label>Jelszó: </label>
+				</div>
+				<div class="col-md-6">
+						<input  id="password" name="password"  class="form-control" data-bind="value: password" type="password">
+				</div>
+			</div>
+			<div class="row margin-bottom-sm">
+				<div class="col-md-6">
+					<label>Telefonszám: </label>
+				</div>
+				<div class="col-md-6">
+						<input  class="form-control" id="phone" name="phone" data-bind="value: phone" type="text" placeholder="Pl. 06-30-121-1020">
+				</div>
+			</div>
+			<div class="row margin-bottom-sm">
+				<div class="col-md-6">
+					<label>Cég-e: </label>
+				</div>
+				<div class="col-md-6">
+						<input  class="" data-bind="checked:  company" type="checkbox">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="modal-footer">
+		<button type="button" class="btn btn-default"
+			data-bind="click: cancel">Mégse</button>
+		<button class="btn btn-default" data-bind="click: processRegistration">Regisztráció</button>
+	</div>
+	</form></div>
+</div>

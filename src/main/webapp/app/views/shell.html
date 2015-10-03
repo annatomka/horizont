@@ -1,0 +1,72 @@
+<div id="common-errors" data-bind="foreach: alerts">
+	<div data-bind="alert: $data"></div>
+</div>
+<div>
+
+	<div class="top-navbar header">
+		<div>
+
+			<div class="loader menu-loader pull-right spinner"
+				data-bind="css: { active: router.isNavigating }">
+				<div class="rect1"></div>
+				<div class="rect2"></div>
+				<div class="rect3"></div>
+				<div class="rect4"></div>
+				<div class="rect5"></div>
+			</div>
+			<ul class="nav" data-bind="foreach: router.navigationModel">
+				<li class="switch-container" data-bind="css: { active: isActive }">
+					<a class="switch-item"
+					data-bind="attr: { href: hash }, html: title"></a> <a
+					class="switch-item" data-bind="attr: { href: hash }, html: title"></a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="container-fluid page-host"
+		data-bind="router: { transition:'entrance' }"></div>
+	<div data-bind="if: $data.adEditorVisible">
+		<div
+			data-bind="compose: { model: 'viewmodels/editAd',activationData: selectedAd(),preserveContext: true},transition: 'entrance'"></div>
+	</div>
+	<nav id="bt-menu" class="bt-menu">
+		<div class="bt-menu-trigger-div">
+			<a href="#" class="bt-menu-trigger"><span>Menu</span></a>
+		</div>
+		<ul>
+			<!-- ko if: useranonim()==false -->
+			<li><a href="logout" class="bt-icon fa fa-sign-out"
+				data-bind="tooltip: {title: 'Kijelentkezés', placement: 'left'}"></a>
+			</li>
+			<!-- /ko -->
+			<!-- ko if: useranonim()==true -->
+			<li><a href="#"
+				data-bind="click:  login.bind($data),tooltip: {title: 'Bejelentkezés', placement: 'left'}"
+				data-toggle="modal" data-target="#login" class="bt-icon fa fa-key"></a></li>
+			<!-- /ko -->
+			<!-- ko if: useranonim()==false -->
+			<li><a href="#"
+				data-bind="click: info,tooltip: {title: 'Adataim', placement: 'left'}"
+				class="bt-icon fa fa-gear"></a></li>
+			<!-- /ko -->
+		</ul>
+		<ul>
+			<!-- ko if: useranonim()==false -->
+			<li><a href="#"
+				data-bind="click:  showGallery,tooltip: {title: 'Galéria', placement: 'top'}"
+				class="bt-icon fa fa-picture-o"></a></li>
+			<li><a href="#"
+				data-bind="click:  upload,tooltip: {title: 'Képfeltöltés', placement: 'top'}"
+				class="bt-icon fa fa-upload"></a></li>
+			<li><a href="#"
+				data-bind="click:  createAd,tooltip: {title: 'Új hirdetés', placement: 'top'}"
+				class="bt-icon fa fa-edit"></a></li>
+			<!-- /ko -->
+			<!-- ko if: useradmin()==true -->
+			<li><a href="#"
+				data-bind="click:  createCategory,tooltip: {title: 'Új kategória', placement: 'top'}"
+				class="bt-icon fa fa-tag"></a></li>
+			<!-- /ko -->
+		</ul>
+	</nav>
+</div>

@@ -1,0 +1,31 @@
+<div class="messageBox autoclose"
+	style="min-width: 50vw; max-width: 80vw">
+	<div class="modal-draggable">
+	<div class="modal-header">
+		<button type="button" class="close" data-bind="click: cancel"
+			aria-hidden="true">&times;</button>
+		<h4 class="modal-title" id="myModalLabel">Galéria</h4>
+	</div>
+	<div class="modal-body">
+		<div class="container scrollable1">
+			<div class="row">
+				<ul data-bind="foreach: fileInfos" style="list-style-type: none;">
+					<li class="col-md-6 voffset2">
+					<div class="col-md-3"><img class="img-responsive" data-bind="click: $parent.selectItem.bind($parent,$data),attr:{src: $data.path()+'t_'+$data.name()}"/></div>
+					
+					<div class="col-md-6">
+						<div><h4 data-bind="text: $data.name" style="word-wrap: break-word;"></h4></div>
+						<div><a class="link-btn" data-bind="click: $parent.deleteItem.bind($parent,$data)">Törlés</a></div>
+					</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="modal-footer">
+		<!-- 			<button type="button" class="btn btn-default" -->
+		<!-- 				data-bind="click: cancel">Mégse</button> -->
+		<!-- 			<button class="btn btn-default" data-bind="click: save" name="submit" -->
+		<!-- 				value="Submit">Mentés</button> -->
+	</div></div>
+</div>
