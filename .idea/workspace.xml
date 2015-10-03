@@ -2,98 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de87de4d-22b5-450f-a3f4-6a087ea559d9" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/META-INF/framework.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/changelog.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/hu/co/horizont/controller/AdController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/hu/co/horizont/controller/CategoryController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/hu/co/horizont/controller/FileController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/hu/co/horizont/controller/LocationController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/hu/co/horizont/controller/LoginController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/hu/co/horizont/controller/RestCommonsMvcConfig.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/hu/co/horizont/controller/UserController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/hu/co/horizont/domain/Ad.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/hu/co/horizont/domain/Category.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/hu/co/horizont/domain/FileInfo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/hu/co/horizont/domain/Location.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/hu/co/horizont/domain/User.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/hu/co/horizont/exceptions/AuthenticationException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/hu/co/horizont/exceptions/HorizontExceptionHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/hu/co/horizont/mapper/AdMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/hu/co/horizont/mapper/AdMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/hu/co/horizont/mapper/CategoryMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/hu/co/horizont/mapper/CategoryMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/hu/co/horizont/mapper/ImageMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/hu/co/horizont/mapper/ImageMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/hu/co/horizont/mapper/LocationMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/hu/co/horizont/mapper/LocationMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/hu/co/horizont/mapper/UserMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/hu/co/horizont/mapper/UserMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/hu/co/horizont/repository/AdRepository.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/hu/co/horizont/repository/CategoryRepository.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/hu/co/horizont/repository/ImageRepository.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/hu/co/horizont/repository/LocationRepository.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/hu/co/horizont/repository/UserRepository.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/hu/co/horizont/repository/impl/AdRepositoryImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/hu/co/horizont/repository/impl/CategoryRepositoryImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/hu/co/horizont/repository/impl/ImageRepositoryImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/hu/co/horizont/repository/impl/LocationRepositoryImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/hu/co/horizont/repository/impl/UserRepositoryImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/hu/co/horizont/security/AjaxAuthEntryPoint.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/hu/co/horizont/security/CustomAuthenticationManager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/hu/co/horizont/security/UserInfo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/hu/co/horizont/service/AdService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/hu/co/horizont/util/Example.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/hu/co/horizont/util/Image.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/hu/co/horizont/util/ImageLoader.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/hu/co/horizont/util/ImageType.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/log4j.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/mybatis.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/horizont-1.0.0-BUILD-SNAPSHOT.war" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/horizont-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/hu/co/horizont/HomeController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/horizont-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/hu/co/horizont/Test.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/horizont-1.0.0-BUILD-SNAPSHOT/WEB-INF/classes/log4j.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/horizont-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/aopalliance-1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/horizont-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/aspectjrt-1.6.10.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/horizont-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/commons-fileupload-1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/horizont-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/commons-jexl-2.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/horizont-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/commons-logging-1.1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/horizont-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.2.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/horizont-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/jackson-core-2.2.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/horizont-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/jackson-core-asl-1.9.12.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/horizont-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/jackson-databind-2.2.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/horizont-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/jackson-mapper-asl-1.9.12.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/horizont-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/javax.inject-1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/horizont-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/jcl-over-slf4j-1.6.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/horizont-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/json-20090211.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/horizont-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/horizont-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/log4j-1.2.15.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/horizont-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/slf4j-api-1.6.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/horizont-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/slf4j-log4j12-1.6.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/horizont-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/spring-aop-3.1.1.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/horizont-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/spring-asm-3.1.1.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/horizont-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/spring-beans-3.1.1.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/horizont-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/spring-context-3.1.1.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/horizont-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/spring-context-support-3.1.1.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/horizont-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/spring-core-3.1.1.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/horizont-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/spring-expression-3.1.1.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/horizont-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/spring-web-3.1.1.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/horizont-1.0.0-BUILD-SNAPSHOT/WEB-INF/lib/spring-webmvc-3.1.1.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/horizont-1.0.0-BUILD-SNAPSHOT/WEB-INF/spring/appServlet/servlet-context.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/horizont-1.0.0-BUILD-SNAPSHOT/WEB-INF/spring/root-context.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/horizont-1.0.0-BUILD-SNAPSHOT/WEB-INF/views/home.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/horizont-1.0.0-BUILD-SNAPSHOT/WEB-INF/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/horizont-1.0.0-BUILD-SNAPSHOT/app.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/horizont-1.0.0-BUILD-SNAPSHOT/css/main.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/hu.co/horizont/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/m2e-wtp/web-resources/META-INF/maven/hu.co/horizont/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/log4j.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat/conf/logging.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat/conf/tomcat-users.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat/conf/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2015-10-03" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="horizont.iws" />
@@ -202,21 +111,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.037736">
-              <caret line="260" column="21" selection-start-line="260" selection-start-column="21" selection-end-line="260" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Procfile" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Procfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="27" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
+            <state vertical-scroll-proportion="0.58112586">
+              <caret line="224" column="34" selection-start-line="224" selection-start-column="34" selection-end-line="224" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -236,8 +135,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/framework.properties" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/Procfile" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -767,12 +666,12 @@
       <created>1443826438778</created>
       <option name="number" value="Default" />
       <updated>1443826438778</updated>
-      <workItem from="1443826441690" duration="5512000" />
+      <workItem from="1443826441690" duration="6209000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5512000" />
+    <option name="totallyTimeSpent" value="6209000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1419" y="21" width="1906" height="1068" extended-state="0" />
@@ -920,18 +819,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.037736">
-          <caret line="260" column="21" selection-start-line="260" selection-start-column="21" selection-end-line="260" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Procfile">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="27" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.58112586">
+          <caret line="224" column="34" selection-start-line="224" selection-start-column="34" selection-end-line="224" selection-end-column="34" />
           <folding />
         </state>
       </provider>
