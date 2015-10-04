@@ -219,13 +219,6 @@
 			<version>3.3.1</version>
 		</dependency>
 		<dependency>
-			<groupId>com.mattbertolini</groupId>
-			<artifactId>liquibase-slf4j</artifactId>
-			<version>1.0.0</version>
-			<scope>compile</scope>
-		</dependency>
-
-		<dependency>
 			<groupId>postgresql</groupId>
 			<artifactId>postgresql</artifactId>
 			<version>9.1-901.jdbc4</version>
