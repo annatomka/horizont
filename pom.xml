@@ -12,6 +12,7 @@
 		<org.springframework-version>4.0.2.RELEASE</org.springframework-version>
 		<org.aspectj-version>1.6.10</org.aspectj-version>
 		<org.slf4j-version>1.7.12</org.slf4j-version>
+		<mysql.connector.version>5.1.31</mysql.connector.version>
 	</properties>
 	<dependencies>
 		<!-- Spring -->
@@ -206,23 +207,14 @@
 			<version>3.1.0.RELEASE</version>
 		</dependency>
 
-		<!-- liquibase integration -->
+		<!-- MySQL -->
 		<dependency>
-			<groupId>org.liquibase</groupId>
-			<artifactId>liquibase-core</artifactId>
-			<version>3.1.1</version>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>${mysql.connector.version}</version>
 		</dependency>
-		<dependency>
-			<groupId>com.mattbertolini</groupId>
-			<artifactId>liquibase-slf4j</artifactId>
-			<version>1.2.1</version>
-		</dependency>
-		<dependency>
-			<groupId>postgresql</groupId>
-			<artifactId>postgresql</artifactId>
-			<version>9.1-901.jdbc4</version>
-		</dependency>
-<!-- image scaler -->
+
+		<!-- image scaler -->
 		<dependency>
 			<groupId>com.mortennobel</groupId>
 			<artifactId>java-image-scaling</artifactId>

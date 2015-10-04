@@ -82,7 +82,7 @@
 	</bean>
 
 	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource">
-		<property name="url" value="#{ 'jdbc:postgresql://' + @dbUrl.getHost() + ':' + @dbUrl.getPort() + @dbUrl.getPath() }"/>
+		<property name="url" value="#{ 'jdbc:mysql://' + @dbUrl.getHost() + @dbUrl.getPath() }"/>
 		<property name="username" value="#{ @dbUrl.getUserInfo().split(':')[0] }"/>
 		<property name="password" value="#{ @dbUrl.getUserInfo().split(':')[1] }"/>
 	</bean>
@@ -164,10 +164,10 @@
 	</bean>
 
 	<!-- liquibase config -->
-	<bean id="LiquibaseUpdater" class="liquibase.integration.spring.SpringLiquibase">
-		<property name="dataSource" ref="dataSource" />
-		<property name="changeLog" value="classpath:changelog.xml" />
-	</bean>
+	<!--<bean id="LiquibaseUpdater" class="liquibase.integration.spring.SpringLiquibase">-->
+		<!--<property name="dataSource" ref="dataSource" />-->
+		<!--<property name="changeLog" value="classpath:changelog.xml" />-->
+	<!--</bean>-->
 
 	<bean class="hu.co.horizont.exceptions.HorizontExceptionHandler" ></bean>
 </beans:beans>
